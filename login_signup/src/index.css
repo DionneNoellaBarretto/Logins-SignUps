@@ -17,36 +17,42 @@ code {
   border-radius: 20px;
   height: 100%;
   padding: 25px 15px;
+  box-shadow: 0 0 10px black;
 }
 .two{
   background-color: rgb(140, 169, 247);
   border-radius: 20px;
   height: 100%;
   padding: 25px 15px;
+  box-shadow: 0 0 10px black;
 }
 .three{
   background-color: rgb(132, 241, 168);
   border-radius: 20px;
   height: 100%;
   padding: 25px 15px;
+  box-shadow: 0 0 10px black;
 }
 .four{
   background-color: rgb(225, 247, 130);
   border-radius: 20px;
   padding: 25px 15px;
   height: 100%;
+  box-shadow: 0 0 10px black;
 }
 .five{
   background-color: rgb(150, 64, 248);
   border-radius: 20px;
   height: 100%;
   padding: 25px 15px;
+  box-shadow: 0 0 10px black;
 }
 .six{
   background-color: rgb(250, 152, 245);
   border-radius: 20px;
   padding: 25px 15px;
   height: 100%;
+  box-shadow: 0 0 10px black;
 }
 
 .container{
