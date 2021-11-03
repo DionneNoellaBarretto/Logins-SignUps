@@ -1,10 +1,10 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background: #0f0c29;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-attachment: fixed;
+  
 }
 
 code {
@@ -14,19 +14,45 @@ code {
 
 .one{
   background-color: rgb(241, 163, 163);
+  border-radius: 20px;
+  height: 100%;
+  padding: 25px 15px;
 }
 .two{
   background-color: rgb(140, 169, 247);
+  border-radius: 20px;
+  height: 100%;
+  padding: 25px 15px;
 }
 .three{
   background-color: rgb(132, 241, 168);
+  border-radius: 20px;
+  height: 100%;
+  padding: 25px 15px;
 }
 .four{
   background-color: rgb(225, 247, 130);
+  border-radius: 20px;
+  padding: 25px 15px;
+  height: 100%;
 }
 .five{
   background-color: rgb(150, 64, 248);
+  border-radius: 20px;
+  height: 100%;
+  padding: 25px 15px;
 }
 .six{
   background-color: rgb(250, 152, 245);
+  border-radius: 20px;
+  padding: 25px 15px;
+  height: 100%;
+}
+
+.container{
+  padding: 50px;
+}
+.row{
+  height: 40vh;
+justify-content: space-around;
 }
