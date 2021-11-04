@@ -1,25 +1,16 @@
 import React from "react";
+// npm install @material-ui/core ; npm i @material-ui/icons
+import { Grid, Paper } from "@material-ui/core";
 
 export default function One() {
-  const password = useModel("");
-  const confirmPassword = useModel("");
   return (
-    <Form onSubmit={handleSubmit}>
-      <Input
-        model={password}
-        required
-        pattern={regex.moderatePassword}
-        placeholder="Password"
-      />
-      <Input
-        model={confirmPassword}
-        // passing the model that should be imprinted/followed
-        imprint-model={password}
-        required
-        placeholder="Confirm Password"
-      />
-
-      <button type="submit">Sign Up</button>
-    </Form>
+    <div>
+      <h5> Material UI based Login / Sign Up Page </h5>
+      {/* grid is like div in material ui */}
+      <Grid>
+      {/* elevation (material ui property for paper) gives the login a shaded raised look - https://mui.com/components/paper/ paper is another material ui component*/}
+        <Paper elevation={20}> Login</Paper>
+      </Grid>
+    </div>
   );
 }
